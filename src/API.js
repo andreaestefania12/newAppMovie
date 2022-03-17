@@ -68,7 +68,7 @@ const apiSettings = {
         body: JSON.stringify({ value })
       })
     ).json();
-
+    
     return rating;
   }
 };
